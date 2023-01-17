@@ -165,9 +165,7 @@ class TestLocationInput extends Setup
             }
             $this->assertTrue($this->util->checkIfCityExistsInUS($city, $state));
         }
-        //todo not working :(
-        //todo I think the only way for this test to work (for me, this is the most optimal way to write this test/script)
-        // is to have access to the api/database with cities in US, could not find any free that has all cities.
+  
 
 
     }//endTest
