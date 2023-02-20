@@ -41,7 +41,7 @@ class TestLocationInput extends Setup
         $this->webDriver->get($this->baseUrl);
 
         //2. Refresh page
-        //Step note: Because WebDriver is in an incognito-alike tab, I need to refresh the page so the website can detect my IP address(not sure why :))
+      
         $this->webDriver->navigate()->refresh();
 
 
